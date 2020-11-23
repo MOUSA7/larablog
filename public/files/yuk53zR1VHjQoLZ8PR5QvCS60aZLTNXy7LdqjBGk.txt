@@ -1,0 +1,2 @@
+How to Make Loading Bar while Page Loads (with jQuery)
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader
