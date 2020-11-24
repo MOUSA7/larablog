@@ -23,6 +23,7 @@ class CreateBlogsTable extends Migration
             $table->string('meta_desc');
             $table->string('slug')->unique();
             $table->integer('status')->default(0);
+            $table->softDeletes();
             $table->timestamps();
         });
     }
