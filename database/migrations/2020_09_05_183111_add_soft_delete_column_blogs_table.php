@@ -15,7 +15,7 @@ class AddSoftDeleteColumnBlogsTable extends Migration
     {
         Schema::table('blogs', function (Blueprint $table) {
             //
-            $table->softDeletes();
+            $table->softDeletes()->nullable();
         });
     }
 
